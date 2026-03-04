@@ -13,6 +13,11 @@ The robot is capable of executing a *home* routine, moving to arbitrary points w
 
 | | |
 |---|---|
+| ![Robot ensamblado](media/images/3d.bmp) | ![Espacio de trabajo](media/images/assembled_scara.jpeg) |
+| CAD | Assembled |
+
+| | |
+|---|---|
 | **Robot type** | SCARA — RRP (3 DOF) |
 | **Target application** | Automated TIG welding |
 | **Microcontroller** | Raspberry Pi Pico (MicroPython) |
