@@ -75,10 +75,12 @@ scara-robot-rrp/
 │   ├── dh_parameters.md   # Denavit-Hartenberg parameter table
 │   ├── kinematics.md      # Forward and inverse kinematics derivation
 │   ├── control_design.md  # Controller design and analysis
+│   ├── web/               # Integrated content from project website by section
 │   └── wiring_diagram.pdf # Wiring diagram
 │
 └── media/
-    ├── images/            # Photos of the physical robot
+    ├── images/            # Photos of the physical robot and web source evidence
+    │   └── web/           # Downloaded figures from project website
     └── videos/            # Trajectory demos and final presentation
 ```
 
@@ -137,6 +139,22 @@ Written in **MicroPython** on the Raspberry Pi Pico. The firmware handles:
 | `C` | Execute a semicircular trajectory |
 
 > ⚠️ **Note:** Being an interpreted language without RTOS support, MicroPython showed timing precision limitations for real-time tasks. Migration to C/C++ is recommended for future versions.
+
+---
+
+## 🌐 Web Integration (2026)
+
+Website content was integrated and organized in `docs/web/` to preserve section-level traceability:
+
+- `docs/web/manufactura.md`
+- `docs/web/hardware.md`
+- `docs/web/firmware.md`
+- `docs/web/instrumentacion.md`
+- `docs/web/control.md`
+- `docs/web/resultados.md`
+- `docs/web/calculos_y_hitos.md`
+
+Supporting image evidence from the website is available in `media/images/web/`.
 
 ---
 
