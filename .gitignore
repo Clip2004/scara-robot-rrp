@@ -4,9 +4,14 @@ __pycache__/
 
 # MATLAB
 *.asv
+*.slxc
+*.autosave
+*.r2024a
+slprj/
 
 # Inventor
 *.bak
+OldVersions/
 
 # OS
 .DS_Store
